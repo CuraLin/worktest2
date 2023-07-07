@@ -1,0 +1,187 @@
+ .font-l {
+     font-size: $font-l;
+ }
+
+ .font-m {
+     font-size: $font-m;
+ }
+
+ .font-s {
+     font-size: $font-s;
+ }
+
+ .lh-l {
+     line-height: $lh-l;
+ }
+
+ .lh-m {
+     line-height: $lh-m;
+ }
+
+ .lh-s {
+     line-height: $lh-s;
+ }
+
+.mr-20{
+    margin-right: $m-s;
+}
+.mb-20{
+    margin-bottom: $m-s;
+}
+.mb-30{
+    margin-bottom: $m-m;
+}
+
+
+ .primary {
+     background: $primary;
+ }
+
+ .secondary {
+     background: $secondary;
+ }
+
+ .danger {
+     color: $danger;
+ }
+
+ .light {
+     color: $light;
+ }
+
+ .pos-a {
+     position: absolute;
+ }
+
+ .pos-r {
+     position: relative;
+ }
+
+ .df {
+     display: flex;
+ }
+
+ .jcc {
+     justify-content: center;
+ }
+
+ .jcsb {
+     justify-content: space-between;
+ }
+
+ .aic {
+     align-items: center;
+ }
+
+ .bold {
+     font-weight: 700;
+ }
+
+
+ .page-hover:hover{
+    color: $light;
+    background: $primary;
+ }
+ .container {
+     max-width: 940px;
+     margin: 0 auto;
+ }
+
+ .header {
+     .logo {
+         background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logo-all-dark.svg);
+         width: 211px;
+         height: 40px;
+         text-indent: 101%;
+         overflow: hidden;
+         white-space: nowrap;
+     }
+
+     .nav_list {
+         line-height: 22px;
+         padding: 39px 0;
+         margin-right: 60px;
+         text-align: center;
+
+     }
+
+     .mr-103 {
+         margin-right: 103px;
+     }
+
+     .nav_logo {
+         right: 0;
+         top: 34px;
+
+         &:hover {
+             transform: scale(1.5);
+         }
+     }
+ }
+
+ .banner {
+     margin-bottom: $m-l;
+ }
+.aside{
+    line-height: 40px;
+    margin-right: $m-s;
+
+    .aside_list{
+        padding: 12.5px 0;
+        width: 300px;
+        text-align: center;
+    }
+}
+.card{
+    flex-wrap: wrap;
+    .card_badge{
+        position: absolute;
+        top: 0;
+        left: 20px;
+        padding: 10px;
+        writing-mode: vertical-lr;
+        letter-spacing: 5px;
+    }
+    .card_logo{
+        position: absolute;
+        top: 19px;
+        right: 22px;
+    }
+    .card_info{
+        h3{
+            width: 173px;
+            line-height: 20px;
+            padding: 18px 0;
+            text-align: center;
+            border-right: 1px solid $secondary;
+        }
+        span{
+            width: 127px;
+            text-align: center;
+            line-height: 24px;
+            padding: 16px 0;
+        }
+    }
+    .card_cart{
+        text-align: center;
+        line-height: 33px;
+        padding: 16px 0;
+    }
+}
+.card_item{
+    border: 1px solid $secondary;
+    width: 300px;
+}
+.pagination{
+    justify-content: flex-end;
+    margin-bottom: $m-l;
+    a{
+        line-height: 20px;
+        padding: 20px 0;
+        text-align: center;
+        width: 60px;
+        height: 60px;
+        border: 1px solid $secondary;
+        
+    }
+}

@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+body {
+  line-height: 1.5;
+  color: #3F5D45;
+  background: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #3F5D45;
+  display: block;
+}
+a:hover {
+  color: blue;
+}
+
+.font-l {
+  font-size: 40px;
+}
+
+.font-m {
+  font-size: 24px;
+}
+
+.font-s {
+  font-size: 20px;
+}
+
+.lh-l {
+  line-height: 192px;
+}
+
+.lh-m {
+  line-height: 60px;
+}
+
+.lh-s {
+  line-height: 48px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.primary {
+  background: #3F5D45;
+}
+
+.secondary {
+  background: #EAF0ED;
+}
+
+.danger {
+  color: #AE0000;
+}
+
+.light {
+  color: #fff;
+}
+
+.pos-a {
+  position: absolute;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jcc {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jcsb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aic {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.page-hover:hover {
+  color: #fff;
+  background: #3F5D45;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.header .logo {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logo-all-dark.svg);
+  width: 211px;
+  height: 40px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.header .nav_list {
+  line-height: 22px;
+  padding: 39px 0;
+  margin-right: 60px;
+  text-align: center;
+}
+.header .mr-103 {
+  margin-right: 103px;
+}
+.header .nav_logo {
+  right: 0;
+  top: 34px;
+}
+.header .nav_logo:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.banner {
+  margin-bottom: 60px;
+}
+
+.aside {
+  line-height: 40px;
+  margin-right: 20px;
+}
+.aside .aside_list {
+  padding: 12.5px 0;
+  width: 300px;
+  text-align: center;
+}
+
+.card {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.card .card_badge {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  padding: 10px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  letter-spacing: 5px;
+}
+.card .card_logo {
+  position: absolute;
+  top: 19px;
+  right: 22px;
+}
+.card .card_info h3 {
+  width: 173px;
+  line-height: 20px;
+  padding: 18px 0;
+  text-align: center;
+  border-right: 1px solid #EAF0ED;
+}
+.card .card_info span {
+  width: 127px;
+  text-align: center;
+  line-height: 24px;
+  padding: 16px 0;
+}
+.card .card_cart {
+  text-align: center;
+  line-height: 33px;
+  padding: 16px 0;
+}
+
+.card_item {
+  border: 1px solid #EAF0ED;
+  width: 300px;
+}
+
+.pagination {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 60px;
+}
+.pagination a {
+  line-height: 20px;
+  padding: 20px 0;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #EAF0ED;
+}
